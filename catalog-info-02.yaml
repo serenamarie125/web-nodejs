@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: Concur
+  description: |
+    Expense reimbursement tool
+  annotations:
+    github.com/project-slug: serenamarie125/web-nodejs
+    backstage.io/kubernetes-id: web-nodejs
+spec:
+  type: website
+  owner: Finance
+  lifecycle: production
