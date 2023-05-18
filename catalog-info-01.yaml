@@ -1,0 +1,13 @@
+apiVersion: backstage.io/v1alpha1
+kind: Component
+metadata:
+  name: egencia
+  description: |
+    Travel Online Booking Tool
+  annotations:
+    github.com/project-slug: serenamarie125/web-nodejs
+    backstage.io/kubernetes-id: web-nodejs
+spec:
+  type: website
+  owner: Finance
+  lifecycle: production
